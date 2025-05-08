@@ -52,7 +52,7 @@ def generate_answer(contexts, model=MODEL, temperature=0):
 
 def gene_zhipu_response(contexts):
     #client = ZhipuAI(api_key=os.getenv("Zhipu_API_KEY")) # API
-    client = ZhipuAI(api_key='79e87f391b89381f49e9d0d8f8dd380d.TKNWeKdp4G3R7yzz') # API
+    client = ZhipuAI(api_key='77bc788b4844f7d1257561f372fd2997.7EyOxDDS8oHoqAMI') # API
     response = client.chat.completions.create(
         model="glm-4",  # 填写需要调用的模型名称
         messages=[
